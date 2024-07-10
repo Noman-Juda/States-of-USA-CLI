@@ -80,7 +80,7 @@ class States
   def in
     puts "\n"
     puts "Indiana is a state in the Midwestern region of the United States."
-    puts "Capital: Indianapolis, Population:	6.833 million"
+    puts "Capital: Indianapolis, Population: 6.833 million"
     puts "Choose the city to view its zip code"
     puts "1. Evansville"
     puts "2. South Bend"	
@@ -112,7 +112,7 @@ class States
   def tx
     puts "\n"
     puts "Texas is a state in the South Central region of the United States."
-    puts "Capital: Austin, Population:	30.030 million"
+    puts "Capital: Austin, Population: 30.030 million"
     puts "Choose the city to view its zip code"
     puts "1. Dallas"
     puts "2. Kerrville"	
@@ -176,7 +176,7 @@ class States
   def ca
     puts "\n"
     puts "California  is a state in the Western region of the United States."
-    puts "Capital:	Sacramento, Population:	39.030 million"
+    puts "Capital: Sacramento, Population: 39.030 million"
     puts "Choose the city to view its zip code"
     puts "1. Slab City"
     puts "2. Long Beach"	
@@ -204,5 +204,5 @@ class States
     end
     feedback
   end
-  
+
 end
