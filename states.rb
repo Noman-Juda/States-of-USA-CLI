@@ -141,5 +141,36 @@ class States
     feedback
   end
 
-  
+  def va
+    puts "\n"
+    puts "Virginia is a state in the South Eastern region of the United States."
+    puts "Capital: Richmond, Population: 8.684 million"
+    puts "Choose the city to view its zip code"
+    puts "1. South Hill"
+    puts "2. Centreville"	
+    puts "3. Fork Union"
+    puts "4. Charles City"
+    puts "5. Falls Church"
+
+    va_city = gets.chomp.to_i
+    case va_city
+    when 1
+      puts "\n"
+      puts "Its Zipcode is: 23950"
+    when 2
+      puts "\n"
+      puts "Its Zipcode is: 20120"
+    when 3
+      puts "\n"
+      puts "Its Zipcode is: 23055"
+    when 4
+      puts "\n"
+      puts "Its Zipcode is: 23030"
+    when 5
+      puts "\n"
+      puts "Its Zipcode is: 22040"
+    end
+    feedback
+  end
+
 end
