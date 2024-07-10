@@ -8,9 +8,9 @@ class States
 
   def state
     puts "\n"
-    puts "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
-    puts "Cities of the Major States of USA"
-    puts "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+    puts "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+    puts "Major Cities of the States of the USA"
+    puts "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
     puts "\n"
     loop do
       puts "\n"
@@ -28,7 +28,7 @@ class States
       when 1
         il
       when 2
-        in
+        ind
       when 3
         tx
       when 4
@@ -49,6 +49,7 @@ class States
     puts "\n"
     puts "Illinois is a state in the Midwestern region of the United States."
     puts "Capital: Springfield, Population: 12.580 million"
+    puts "\n"
     puts "Choose the city to view its zip code"
     puts "1. Chicago"
     puts "2. Lombard"	
@@ -77,10 +78,11 @@ class States
     feedback
   end
 
-  def in
+  def ind
     puts "\n"
     puts "Indiana is a state in the Midwestern region of the United States."
     puts "Capital: Indianapolis, Population: 6.833 million"
+    puts "\n"
     puts "Choose the city to view its zip code"
     puts "1. Evansville"
     puts "2. South Bend"	
@@ -88,8 +90,8 @@ class States
     puts "4. Charlestown"
     puts "5. Bloomington"
 
-    in_city = gets.chomp.to_i
-    case in_city
+    ind_city = gets.chomp.to_i
+    case ind_city
     when 1
       puts "\n"
       puts "Its Zipcode is: 47703"
@@ -113,6 +115,7 @@ class States
     puts "\n"
     puts "Texas is a state in the South Central region of the United States."
     puts "Capital: Austin, Population: 30.030 million"
+    puts "\n"
     puts "Choose the city to view its zip code"
     puts "1. Dallas"
     puts "2. Kerrville"	
@@ -145,6 +148,7 @@ class States
     puts "\n"
     puts "Virginia is a state in the South Eastern region of the United States."
     puts "Capital: Richmond, Population: 8.684 million"
+    puts "\n"
     puts "Choose the city to view its zip code"
     puts "1. South Hill"
     puts "2. Centreville"	
@@ -177,6 +181,7 @@ class States
     puts "\n"
     puts "California  is a state in the Western region of the United States."
     puts "Capital: Sacramento, Population: 39.030 million"
+    puts "\n"
     puts "Choose the city to view its zip code"
     puts "1. Slab City"
     puts "2. Long Beach"	
