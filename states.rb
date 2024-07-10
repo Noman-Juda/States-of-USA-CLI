@@ -223,7 +223,12 @@ class States
     report
     exit
   end
-  
+
+  def set_feedback(feedback_input, rating_input)
+    self.feedback = feedback_input.capitalize
+    self.rating = rating_input.to_i
+  end
+
   def report
     puts "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
     puts "Your Experience using this App: #{@feedback}"
