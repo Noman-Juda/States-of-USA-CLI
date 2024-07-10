@@ -14,7 +14,7 @@ class States
     puts "\n"
     loop do
       puts "\n"
-      puts "Please type the number of State to view the information"
+      puts "Please type the respective number of State to view the information"
       puts "1. Illinois"
       puts "2. Indiana"
       puts "3. Texas"
@@ -210,4 +210,16 @@ class States
     feedback
   end
 
+  def feedback
+    puts "\n"
+    puts "How was your experiecne with this app?"
+    self.feedback = gets.chomp.capitalize
+    puts "\n"
+    puts "How do you rate this app?"
+    self.rating = gets.chomps.to_i
+
+    puts "\n"
+    puts "Thanks you for your feedback!"
+    exit
+  end
 end
