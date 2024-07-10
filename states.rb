@@ -77,5 +77,36 @@ class States
     feedback
   end
 
-  
+  def in
+    puts "\n"
+    puts "Indiana is a state in the Midwestern region of the United States."
+    puts "Capital: Indianapolis, Population:	6.833 million"
+    puts "Choose the city to view its zip code"
+    puts "1. Evansville"
+    puts "2. South Bend"	
+    puts "3. Carmel"
+    puts "4. Charlestown"
+    puts "5. Bloomington"
+
+    in_city = gets.chomp.to_i
+    case in_city
+    when 1
+      puts "\n"
+      puts "Its Zipcode is: 47703"
+    when 2
+      puts "\n"
+      puts "Its Zipcode is: 46601"
+    when 3
+      puts "\n"
+      puts "Its Zipcode is: 46032"
+    when 4
+      puts "\n"
+      puts "Its Zipcode is: 47111"
+    when 5
+      puts "\n"
+      puts "Its Zipcode is: 47401"
+    end
+    feedback
+  end
+
 end
