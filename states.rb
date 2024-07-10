@@ -173,4 +173,36 @@ class States
     feedback
   end
 
+  def ca
+    puts "\n"
+    puts "California  is a state in the Western region of the United States."
+    puts "Capital:	Sacramento, Population:	39.030 million"
+    puts "Choose the city to view its zip code"
+    puts "1. Slab City"
+    puts "2. Long Beach"	
+    puts "3. Coronado"
+    puts "4. Mountain View"
+    puts "5. Santa Maria"
+
+    ca_city = gets.chomp.to_i
+    case ca_city
+    when 1
+      puts "\n"
+      puts "Its Zipcode is: 92233"
+    when 2
+      puts "\n"
+      puts "Its Zipcode is: 90712"
+    when 3
+      puts "\n"
+      puts "Its Zipcode is: 91932"
+    when 4
+      puts "\n"
+      puts "Its Zipcode is: 94039"
+    when 5
+      puts "\n"
+      puts "Its Zipcode is: 93454"
+    end
+    feedback
+  end
+  
 end
