@@ -4,7 +4,7 @@ require './states'
 class TestStates < Minitest::Test
   def test_feedback_is_string
     states = States.new
-    assert states.feedback.is_a?(String), "Feedback should be string"
+    assert states.feedback.is_a?(String), "Feedback should be a string"
   end
 
   def test_rating_is_integer

@@ -220,6 +220,14 @@ class States
 
     puts "\n"
     puts "Thank you for your feedback!"
+    report
     exit
+  end
+  
+  def report
+    puts "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+    puts "Your Experience using this App: #{@feedback}"
+    puts "Your Rating: #{@rating}"
+    puts "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
   end
 end
