@@ -8,9 +8,9 @@ class States
 
   def state
     puts "\n"
-    puts "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
-    puts "Major Cities of the States of the USA"
-    puts "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+    puts "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+    puts "States of the United States of America"
+    puts "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
     puts "\n"
     loop do
       puts "\n"
@@ -216,10 +216,10 @@ class States
     self.feedback = gets.chomp.capitalize
     puts "\n"
     puts "How do you rate this app?"
-    self.rating = gets.chomps.to_i
+    self.rating = gets.chomp.to_i
 
     puts "\n"
-    puts "Thanks you for your feedback!"
+    puts "Thank you for your feedback!"
     exit
   end
 end
