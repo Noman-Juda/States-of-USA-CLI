@@ -109,4 +109,37 @@ class States
     feedback
   end
 
+  def tx
+    puts "\n"
+    puts "Texas is a state in the South Central region of the United States."
+    puts "Capital: Austin, Population:	30.030 million"
+    puts "Choose the city to view its zip code"
+    puts "1. Dallas"
+    puts "2. Kerrville"	
+    puts "3. Waco"
+    puts "4. Laredo"
+    puts "5. Houston"
+
+    tx_city = gets.chomp.to_i
+    case tx_city
+    when 1
+      puts "\n"
+      puts "Its Zipcode is: 75001"
+    when 2
+      puts "\n"
+      puts "Its Zipcode is: 78028"
+    when 3
+      puts "\n"
+      puts "Its Zipcode is: 76633"
+    when 4
+      puts "\n"
+      puts "Its Zipcode is: 78040"
+    when 5
+      puts "\n"
+      puts "Its Zipcode is: 77001"
+    end
+    feedback
+  end
+
+  
 end
