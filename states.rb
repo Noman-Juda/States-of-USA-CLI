@@ -75,7 +75,7 @@ class States
       puts "\n"
       puts "Its Zipcode is: 60515"
     end
-    feedback
+    review
   end
 
   def ind
@@ -108,7 +108,7 @@ class States
       puts "\n"
       puts "Its Zipcode is: 47401"
     end
-    feedback
+    review
   end
 
   def tx
@@ -141,7 +141,7 @@ class States
       puts "\n"
       puts "Its Zipcode is: 77001"
     end
-    feedback
+    review
   end
 
   def va
@@ -174,7 +174,7 @@ class States
       puts "\n"
       puts "Its Zipcode is: 22040"
     end
-    feedback
+    review
   end
 
   def ca
@@ -207,10 +207,10 @@ class States
       puts "\n"
       puts "Its Zipcode is: 93454"
     end
-    feedback
+    review
   end
 
-  def feedback
+  def review
     puts "\n"
     puts "How was your experiecne with this app?"
     self.feedback = gets.chomp.capitalize
@@ -221,14 +221,9 @@ class States
     puts "\n"
     puts "Thank you for your feedback!"
     report
-    exit
+    exit 
   end
-
-  def set_feedback(feedback_input, rating_input)
-    self.feedback = feedback_input.capitalize
-    self.rating = rating_input.to_i
-  end
-
+ 
   def report
     puts "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
     puts "Your Experience using this App: #{@feedback}"
